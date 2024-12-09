@@ -272,7 +272,7 @@
                 const invertedLat = invertLat(marker.lat, imageBounds[1][0]); // Інвертуємо координату lat
                 L.circle([invertedLat, marker.lng], {
                     color: marker.color,
-                    radius: 7 // Змінений розмір для міток
+                    radius: 20 // Змінений розмір для міток
                 }).addTo(map);
             });
 
