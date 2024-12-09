@@ -211,7 +211,7 @@
             maxZoom: 1
         });
 
-        const imageUrl = 'your-map-image.png'; // Шлях до зображення карти
+        const imageUrl = 'https://raw.githubusercontent.com/Gospodariuk/InfoMyDom/refs/heads/main/your-map-image.PNG'; // Шлях до зображення карти
         const imageBounds = [[0, 0], [2869, 2869]]; // Розміри карти 2869x2869 пікселів
         L.imageOverlay(imageUrl, imageBounds).addTo(map);
         map.fitBounds(imageBounds);
